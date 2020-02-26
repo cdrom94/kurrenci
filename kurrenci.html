@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="kurrenci/kurrenci_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="kurrenci/kurrenci.css">
+    <title>Sadia Romain | Kurrenci</title>
+</head>
+<body>
+    <h1 class="column">kurr<br>enci</h1>
+    <section class="column">
+        <input type="number" name="amount" id="amount" placeholder="Amount">
+        <select id="currency">
+            <option id="default-option" value="1" selected hidden disabled>CURRENCY</option>
+        </select>
+        <button type="submit" onclick="conversion()">Convert</button>
+        <p id="update-date"></p>
+    </section>
+    <div class="column" id="results">
+    </div>
+    <img id="wave" src="kurrenci/kurrenci_wave.svg" alt="">
+    <img id="koi" src="kurrenci/kurrenci_koi.png" alt="">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="kurrenci/kurrenci.js"></script>
+</body>
+</html>
+
